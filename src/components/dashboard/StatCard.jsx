@@ -18,7 +18,7 @@ const StatCard = ({
     >
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center gap-2">
-          {icon}
+          <div className="border border-transparent rounded-md bg-green-300">{icon}</div>
           <span className={`font-medium ${textColor}`}>{title}</span>
         </div>
         <button
@@ -34,7 +34,7 @@ const StatCard = ({
           <div className={trend.isPositive ? "text-green-500" : "text-red-500"}>
             <span
               className={`${
-                trend.isPositive ? "bg-green-50" : "bg-red-50"
+                trend.isPositive ? "bg-green-100" : "bg-red-50"
               } px-2 py-1 rounded-full text-sm`}
             >
               {trend.value}

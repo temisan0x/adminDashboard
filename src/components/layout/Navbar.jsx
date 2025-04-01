@@ -40,14 +40,17 @@ const Navbar = () => {
     <div className="bg-white w-64 min-h-screen border-r border-gray-200 flex flex-col">
       <div className="mt-5 mb-3 border-gray-200 mx-auto">
         <div className="flex items-center justify-center space-x-2 ">
-          <div className="h-8 w-8 rounded-md bg-teal-600 text-white flex items-center justify-center font-bold">
-            W
-          </div>
+          <img
+            src="/src/assets/logo.jpeg"
+            className="w-10 h-10 object-cover rounded-md"
+          />
           <div>
             <h1 className="font-bold text-3xl">WeCare</h1>
           </div>
         </div>
-        <p className="text-gray-500 text-xs text-center mt-2 font-bold">MedicalAdmin Dashboard</p>
+        <p className="text-gray-500 text-xs text-center mt-2 font-bold">
+          MedicalAdmin Dashboard
+        </p>
       </div>
 
       <div className="flex-1 overflow-y-auto p-4">

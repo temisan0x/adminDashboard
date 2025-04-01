@@ -7,7 +7,6 @@ function Header({children}) {
 <>
 <header className="sticky top-0 z-10 bg-white border-b border-gray-200 px-6 py-3">
       <div className="flex items-center justify-between">
-        {/* Search Bar */}
         <div className="relative flex-1 max-w-xl">
           <input 
             placeholder="Search anything here" 
@@ -16,15 +15,12 @@ function Header({children}) {
           <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
         </div>
         
-        {/* User area */}
         <div className="flex items-center space-x-4">
-          {/* Notifications */}
           <button className="relative p-2 text-gray-600 hover:text-teal-600 transition-colors">
             <FaBell className="text-xl" />
             <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
           </button>
           
-          {/* User profile */}
           <div className="flex items-center space-x-2 cursor-pointer">
             <div className="h-9 w-9 rounded-full bg-gray-200 flex items-center justify-center text-gray-700 font-medium">
               A

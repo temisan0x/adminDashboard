@@ -1,4 +1,3 @@
-
 import React from "react";
 import { AiFillContacts } from "react-icons/ai";
 import { FaDoorClosed, FaDoorOpen } from "react-icons/fa";
@@ -38,11 +37,11 @@ const DashboardStats = () => {
 
       <div className="grid grid-cols-4 gap-6">
         <StatCard
-          icon={<AiFillContacts size={24} />}
+          icon={<AiFillContacts size={24} color="white"/>}
           title="Overall Visitors"
           value="10,525"
           trend={{ value: "+15.2%", isPositive: true }}
-          bgColor="bg-emerald-600"
+          bgColor="bg-[#2F8A80]"
           textColor="text-white"
           progressBar={{ value: 75, today: "1,345 today" }}
         >
