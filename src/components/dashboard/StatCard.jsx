@@ -28,7 +28,7 @@ const StatCard = ({
         </button>
       </div>
 
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 mb-4">
         <div className={`text-4xl font-bold ${textColor}`}>{value}</div>
         {trend && (
           <div className={trend.isPositive ? "text-green-500" : "text-red-500"}>

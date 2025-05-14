@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="mt-5 mb-3 border-gray-200 mx-auto">
         <div className="flex items-center justify-center space-x-2 ">
           <img
-            src="/src/assets/logo.jpeg"
+            src="public/assets/logo.jpeg"
             className="w-10 h-10 object-cover rounded-md"
           />
           <div>

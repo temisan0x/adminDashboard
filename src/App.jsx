@@ -6,6 +6,7 @@ import Appointment from './pages/Appointment';
 import Doctors from './pages/Doctors';
 import Navbar from './components/layout/Navbar';
 import Header from './components/layout/Header';
+import NoPageFound from './pages/NoPageFound';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
             <Route path="/patient" element={<Patient />} />
             <Route path="/appointment" element={<Appointment />} />
             <Route path="/doctors" element={<Doctors />} />
-          </Routes> 
-          </Header>
+            <Route path="*" element={<NoPageFound />} />
+          </Routes>
+        </Header>
       </div>
     </div>
   )

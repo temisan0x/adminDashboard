@@ -37,7 +37,7 @@ const DashboardStats = () => {
 
       <div className="grid grid-cols-4 gap-6">
         <StatCard
-          icon={<AiFillContacts size={24} color="white"/>}
+          icon={<AiFillContacts size={24} color="white" />}
           title="Overall Visitors"
           value="10,525"
           trend={{ value: "+15.2%", isPositive: true }}
@@ -45,7 +45,7 @@ const DashboardStats = () => {
           textColor="text-white"
           progressBar={{ value: 75, today: "1,345 today" }}
         >
-          <div className="text-sm text-emerald-100">
+          <div className="text-sm text-emerald-100 mt-3">
             Data obtained for the last 7 days from 5,567 visitor to 7,523 visitor
           </div>
         </StatCard>
@@ -55,9 +55,9 @@ const DashboardStats = () => {
           value="5,715"
           trend={{ value: "+10.4%", isPositive: true }}
         >
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 mt-5">
             <img
-              src="/src/assets/stats.png"
+              src="public/assets/stats.png"
               className="w-20 h-auto object-contain"
             />
             <p className="text-gray-600 text-sm">
@@ -72,7 +72,7 @@ const DashboardStats = () => {
           trend={{ value: "+14%", isPositive: true }}
           progressBar={{ value: 66, today: "1,345 today" }}
         >
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-500 mt-5">
             Visitor data obtained for the last 7 days from 15,256 to 15,751
           </div>
         </StatCard>
