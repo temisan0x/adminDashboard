@@ -57,7 +57,7 @@ const DashboardStats = () => {
         >
           <div className="flex items-center gap-4 mt-5">
             <img
-              src="public/assets/stats.png"
+              src="/assets/stats.png"
               className="w-20 h-auto object-contain"
             />
             <p className="text-gray-600 text-sm">
